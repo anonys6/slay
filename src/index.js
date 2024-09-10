@@ -26,17 +26,20 @@
 import dotenv from "dotenv";
 import express from "express";
 import connectDB from "./db/index.js";
+import { app } from "./app.js";
 
 dotenv.config({
     path: "./env",
 });
 
-connectDB();
+const port = process.env.PORT || 8001;
 
-const app = express();
-
-app.get("/", (req, res) => {
-    res.send("Hello");
-});
-
-app.listen(8000);
+connectDB()
+    .then(() => {
+        app.listen(port, () => {
+            console.log(`App running on: http://localhost:${port}`);
+        });
+    })
+    .catch((error) => {
+        console.error("MongoDB connection falied:", error);
+    });
