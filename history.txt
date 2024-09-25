@@ -1,0 +1,1327 @@
+cat README.md
+ls
+ls -l
+cd slay
+cd ..
+cd Backend
+rm -rf niwiBlog
+rm -rf nimi/
+cd Project
+cleaq
+sudo mount -t ntfs-3g /dev/nvme0n1p5 '/media/clay/Kingston SSD'
+clear
+cat autologin.log
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
+ping google.com
+history
+flatpack
+dpkg -l | grep 'pipx\|tesseract\|ksnip\|nautilus\|gnome-screenshot\|python3-tk'
+
+sudo apt autoremove --purge -y
+sudo apt autoclean -y
+
+# Using quotes to prevent Fish from interpreting wildcards
+rm -rf ~/.local/lib/python3.*'/site-packages/normcap*'
+rm -rf ~/.local/lib/python3.*'/site-packages/virtualfish*'
+rm -rf ~/.local/lib/python3.*'/site-packages/pipx*'
+rm -f ~/.local/bin/normcap
+rm -f ~/.local/bin/virtualfish
+rm -f ~/.local/bin/pipx
+
+rm -rf ~/.local/lib/python3.*/site-packages/normcap*
+rm -rf ~/.local/lib/python3.*/site-packages/virtualfish*
+rm -rf ~/.local/lib/python3.*/site-packages/pipx*
+rm -f ~/.local/bin/normcap
+rm -f ~/.local/bin/virtualfish
+rm -f ~/.local/bin/pipx
+
+nano ~/.config/fish/config.fish
+
+nano ~/.bashrc
+
+rm -f ~/.local/bin/flatpak
+
+ls ~/.local/bin | grep flatpak
+
+rm -rf ~/.local/share/flatpak
+rm -rf ~/.var/app
+rm -rf ~/.config/flatpak
+
+sudo rm -rf /var/lib/flatpak
+
+sudo apt remove --purge flatpak -y
+
+flatpak install flathub com.github.diegoivanme.gtextract
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+com.github.diegoivanme.gtextract
+
+flatpak run io.github.diegoivanme.gtext
+
+flatpak install flathub io.github.diegoivanme.gtext
+
+flatpak install flathub com.github.rajsolai.textsnatcher
+
+sudo apt install flatpak
+ls ~/.local/bin
+
+pip3 list
+
+pip list
+
+rm  -rf ~/.local/pipx
+rm -f ~/.local/bin/pipx
+
+rm -rf ~/.local/lib/python3.*/site-packages/pipx*
+
+rm -f ~/.local/bin/virtualfish
+rm -rf ~/.local/lib/python3.*/site-packages/virtualfish*
+
+rm -f ~/.local/bin/normcap
+
+rm -rf ~/.local/lib/python3.*/site-packages/normcap*
+
+pip uninstall pipx --break-system-packages
+
+pip uninstall virtualfish --break-system-packages
+
+pip uninstall normcap --break-system-packages
+
+pipx uninstall normcap
+ls ~/.local/bin/pipx
+
+pip3 list
+pip list
+gedit ~/.config/fish/config.fish
+
+export TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/
+
+rm -rf normcap-env
+
+cd ../../MSI/
+pip3 uninstall virtualfish
+
+pip uninstall virtualfish
+
+~/.local/bin/pipx uninstall normcap
+
+pipx uninstall normcap
+
+sudo apt autoremove
+
+sudo apt install nautilus
+sudo apt remove --purge pipx python3-venv build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard gnome-screenshot python3-tk nautilus ksnip
+
+tesseract 'Screenshot from 2024-09-21 11-42-55.png' output.txt -l eng
+cd Screenshots/
+nautilus
+nautilus-sendto
+cd Pictures/
+lf
+sudo apt install tesseract-ocr-eng
+tesseract --list-langs
+tesseract --version
+python3 -m pip install --user pipx
+ksnip
+sudo apt install fuse
+./ksnip-1.10.1-x86_64.AppImage
+chmod +x ksnip-1.10.1-x86_64.AppImage
+cd MSI/
+chmod +x ksnip-*.AppImage
+
+sudo apt install ksnip tesseract-ocr tesseract-ocr-eng
+normcap
+
+tesseract --list-langs
+
+echo $TESSDATA_PREFIX
+
+echo 'export TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/' >> ~/.bashrc && source ~/.bashrc
+
+echo 'export TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/' >> ~/.bashrc
+source ~/.bashrc
+
+set -Ux TESSDATA_PREFIX /usr/share/tesseract-ocr/5/
+
+sudo apt install textsnatcher
+
+ls /usr/share/tesseract-ocr/tessdata/
+
+find /usr/share -type d -name "tessdata"
+
+dpkg -L tesseract-ocr-eng | grep tessdata
+
+sudo apt install tesseract-ocr
+tesseract --version
+
+normcap
+export TESSDATA_PREFIX=/usr/share/tesseract-ocr/4.00/
+ls /usr/share/tesseract-ocr/4.00/tessdata
+echo $TESSDATA_PREFIX
+source ~/.config/fish/config.fish
+nano ~/.config/fish/config.fish
+source ~/.bashrc  # or source ~/.zshrc, depending on your shell
+gnome-screenshot
+sudo apt install gnome-screenshot
+python3 -c "import tkinter; print('tkinter is installed')"
+sudo apt install python3-tk
+echo $PATH
+code ~/.config/fish/config.fish
+exit
+clay@clay ~/MSI [127]> export PATH=$PATH:/home/clay/.local/bin
+clay@clay ~/MSI> echo 'set -Ux fish_user_paths /home/clay/.local/bin $fish_user_paths' >> ~/.config/fish/config.fish
+clay@clay ~/MSI> source ~/.config/fish/config.fish
+Command 'mktemp' is available in the following places
+ * /bin/mktemp
+ * /usr/bin/mktemp
+The command could not be located because '/bin:/usr/bin' is not included in the PATH environment variable.
+mktemp: command not found
+~/.config/fish/functions/bass.fish (line 1): 
+mktemp
+^~~~~^
+in command substitution
+        called on line 9 of file ~/.config/fish/functions/bass.fish
+in function 'bass' with arguments 'source /home/clay/.nvm/nvm.sh \; nvm use default'
+        called on line 4 of file ~/.config/fish/config.fish
+from sourcing file ~/.config/fish/config.fish
+~/.config/fish/functions/bass.fish (line 9): Unknown command
+  set -l script_file (mktemp)
+                     ^~~~~~~^
+in function 'bass' with arguments 'source /home/clay/.nvm/nvm.sh \; nvm use default'
+        called on line 4 of file ~/.config/fish/config.fish
+from sourcing file ~/.config/fish/config.fish
+Command 'dirname' is available in the following places
+ * /bin/dirname
+ * /usr/bin/dirname
+The command could not be located because '/bin:/usr/bin' is not included in the PATH environment variable.
+dirname: command not found
+~/.config/fish/functions/bass.fish (line 1): 
+dirname (status -f)
+^~~~~~^
+in command substitution
+        called on line 13 of file ~/.config/fish/functions/bass.fish
+in function 'bass' with arguments 'source /home/clay/.nvm/nvm.sh \; nvm use default'
+        called on line 4 of file ~/.config/fish/config.fish
+from sourcing file ~/.config/fish/config.fish
+~/.config/fish/functions/bass.fish (line 13): Unknown command
+    command python -sS (dirname (status -f))/__bass.py $bash_args 3>$script_file
+                       ^~~~~~~~~~~~~~~~~~~~^
+in function 'bass' with arguments 'source /home/clay/.nvm/nvm.sh \; nvm use default'
+        called on line 4 of file ~/.config/fish/config.fish
+from sourcing file ~/.config/fish/config.fish
+clay@clay ~/MSI>
+echo 'set -Ux fish_user_paths /home/clay/.local/bin $fish_user_paths' >> ~/.config/fish/config.fish
+export PATH=$PATH:/home/clay/.local/bin
+pipx install normcap
+pipx ensurepath
+sudo apt install pipx
+pip install virtualfish
+source normcap-env/bin/activate
+python3 -m venv normcap-env
+sudo apt install python3-venv
+pip install normcap
+sudo apt install build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard
+tree
+pn run dev
+sudo isw -b off
+sudo isw -b on
+~/.local/bin/zed
+zfs-zed
+zed
+zed .
+curl -f https://zed.dev/install.sh | sh
+sudo ./xampp stop
+./xampp stop
+cd /opt/lampp/
+sudo dpkg -i '/home/clay/Downloads/discord-0.0.69.deb'
+cd /opt/lampp/htdocs/php-crash/ && cursor .
+cd /opt/lampp/htdocs/php-crash/ && code .
+sudo /opt/lampp/manager-linux-x64.run
+php -S localhost:8000
+cd resources/
+cd re
+7992255357
+cd 5_react_blank/
+ani-cli kaiju no. 8
+ps
+sudo apt install -y golang-go
+wget https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_0.4.0_linux_amd64.zip
+wget https://github.com/ericchiang/pup/releases/latest/download/pup_linux_amd64.zip
+manga-cli
+manga-cli orv
+sudo cp manga-cli /usr/local/bin/manga-cli
+git clone https://github.com/prsh11/manga-cli.git && cd manga-cli
+sudo apt install -y git curl zathura zathura-cb imagemagick zathura-pdf-mupdf
+ani-cli
+anicli
+sudo ani-cli -U
+rm -rf ani-cli
+sudo cp ani-cli/ani-cli /usr/local/bin
+git clone "https://github.com/pystardust/ani-cli.git"
+sudo apt install -y git curl mpv aria2 ffmpeg fzf
+code -ra .
+code .
+code -r .
+pwd
+code -r /5_react_blank
+code -ra /5_react_blank
+code -ra 5_react_blank
+sudo rm -rf /opt/CodeTantra\ SEA
+sudo /home/clay/.nvm/versions/node/v22.8.0/bin/npm uninstall -g electron
+dpkg -l | grep codetantra
+sudo dpkg --purge codetantra-sea
+sudo dpkg -r codetantra-sea
+sudo /home/clay/.nvm/versions/node/v22.8.0/bin/electron . --no-sandbox
+sudo rm /opt/CodeTantra\ SEA/resources/app_unpacked/out/main/*.jsc
+sudo /home/clay/.nvm/versions/node/v22.8.0/bin/electron .
+sudo /home/clay/.nvm/versions/node/v22.8.0/bin/npm install -g electron
+sudo /home/clay/.nvm/versions/node/v22.8.0/bin/npm run build
+sudo /home/clay/.nvm/versions/node/v22.8.0/bin/npm install
+which npm
+npm install
+cd app_unpacked/
+sudo su
+sudo npm install
+tree -I node_modules
+find . -name "*.js"
+sudo env "PATH=$PATH" /home/clay/.nvm/versions/node/v22.8.0/bin/asar extract app.asar app_unpacked
+ls -l /usr/local/bin/node
+ls -l /usr/local/bin/nodels -l /usr/local/bin/node
+sudo ln -s $(which node) /usr/local/bin/node
+sudo mkdir -p /usr/local/bin
+sudo -E /home/clay/.nvm/versions/node/v22.8.0/bin/asar extract app.asar app_unpacked
+sudo /home/clay/.nvm/versions/node/v22.8.0/bin/asar extract app.asar app_unpacked
+which asar
+asar --versoin
+asar -v
+sudo asar extract app.asar app_unpacked
+asar extract app.asar app_unpacked
+npm install -g asar
+tree -I
+./focus.sh
+codetantra-sea --no-sandbox
+cd M
+chmod +x focus.sh
+kill 1278811
+./focus.sh &
+xdotool getwindowname 20971527
+xdotool getwindowname 44040217
+xdotool getwindowname 33554437
+xdotool getwindowname 8391864
+xdotool getwindowname 10485764
+xdotool getwindowname 8391863
+xdotool getwindowname 23068676
+xdotool getwindowname 6291459
+6291459
+xdotool getwindowname 6291466
+xdotool getwindowname 1183
+xdotool search --onlyvisible --name ""
+xdotool search --onlyvisible --name codetantra-sea --verbose
+xdotool search --onlyvisible --name codetantra-sea
+sudo apt install xdotool
+codetantra-sea --no-sandbox --enable-background-mode
+
+./zen
+cd zen/
+./AppRun
+cd squashfs-root/
+cd ~/Downloads/
+sudo dpkg -i '/media/clay/Kignston SSD/Shameem Sir/codetantra-sea_3.0.4_amd64.deb'
+ping paper.io
+ping leetcode.com
+ping facebook.com
+ping poki.game
+ping ums.lpu.in
+ping github.com
+https://github.com
+github.com
+sudo apt install libavcodec-extra
+
+sudo apt install ubuntu-restricted-extras
+
+sudo apt update
+
+cd htdocs
+sudo chmod -R 777 /opt/lampp/htdocs
+whomi
+sudo chmod 666 /opt/lampp/htdocs/hello.php
+cd /opt/lampp
+npm run dev
+npm ls lexical
+rm -rf node_modules
+git reset --hard origin/main
+npm ls lexical
+
+npm install
+
+rm -rf node_modules package-lock.json yarn.lock
+rm -rf node_modules package-lock.json yarn.lock
+
+npm install @lexical/html@latest
+
+python3 -u "/home/clay/MSI/autologin.py"
+npm install react-router-dom
+npm run build
+npm i
+pn run build
+pnpm add yjs
+
+pnpm add @lexical/yjs
+
+pn install
+pnpm list @lexical/table
+
+pnpm update lexical @lexical/react @lexical/file @lexical/headless
+
+pn update
+pn outdated
+pnpm outdated
+
+git clone https://github.com/anonys6/lexical-react-playground.git
+pnpm -v
+npm i pnpm -g
+pnpm self-update
+unrar x Gantt\ uni.rar
+sudo apt-get install unrar
+unzip -P engineer1425 Gantt\ uni.rar
+pn add @lexical/rich-text @lexical/table
+pn add @lexical/link @lexical/list @lexical/mark @lexical/overflow
+pn add @lexical/hashtag
+pnpm run build
+pn add @lexical/code
+pn add react-error-boundary
+pnpm add @lexical/utils
+pnpm add yjs
+pnpm add @lexical/yjs
+pn i
+pn remove @lexical/link
+pn remove @lexical/list @lexical/rich-text
+pn add @lexical/list @lexical/rich-text
+pn add @lexical/link
+pnpm create niwi
+mkdir nimi
+pnpm dlx shadcn@latest init
+
+pn tailwindcss init -p
+
+pnx tailwindcss init -p
+
+pnpm  install -D tailwindcss postcss autoprefixer
+pn add @lexical/table
+mv lexical-react/ .
+git clone https://github.com/stevenluongo/lexical-react.git
+git cone https://github.com/stevenluongo/lexical-react.git
+cd lexical-playground/
+mkdir lexical-playground
+rm -rf lexical-playground/
+cursor lexical-playground/
+cursor .
+ls lexical-playground/
+pn add @lexical/html
+NODE_OPTIONS="--trace-deprecation" npx next dev
+npx next dev --trace-deprecation
+node --trace-deprecation node_modules/.bin/next dev
+git clone https://github.com/mohe22/Next-lexical-editor.git .
+rm -rf Next-lexical-editor/
+git clone https://github.com/mohe22/Next-lexical-editor.git
+pnpm dlx shadcn@latest add label
+
+pnpm dlx shadcn@latest add input
+
+pnpm dlx shadcn@latest add card
+
+cd lexical-next/
+cd le
+pnpm dlx shadcn@latest add dropdown-menu
+
+pnpm add next-themes
+
+pnpm dlx shadcn@latest add button
+
+pnpm dlx shadcn@latest init
+pn create next-app .
+sudo dpkg -i discord-0.0.68.deb
+sleep
+./manager-linux-x64.run
+sudo chmod +x manager-linux-x64.run
+chmod +x manager-linux-x64.run
+./xampp panel
+xampp panel
+./panel
+./xampp
+sudo /opt/lampp/share/xampp-control-panel/xampp-control-panel
+sudo /opt/lampp/share/xampp-control-panel/xampp-control-pane
+history panel
+sudo ./autologin.sh
+./autologin.sh
+cd /etc/NetworkManager/dispatcher.d/
+history autologin
+python3 -u "/media/clay/Kignston SSD/Temp/Script/autologin.py"
+history python
+history grep
+history grep | python3
+history grep | ./autologin.py
+history grep | autologin.py
+history grep | autologin
+code autologin.py
+code autologin.log
+pn add react-icons
+pn create vite@latest .
+mkdir 5_react_blank
+sudo isw -r
+node index.js
+pn add react react-dom
+pn init
+cd 4_react_basics/
+ls ~/.config | grep alacritty
+which alacritty
+sudo apt autoremove
+rm -rf ~/.config/alacritty
+sudo apt remove --purge alacritty
+cat /tmp/Alacritty-*.log
+gedit ~/.config/alacritty/alacritty.yml
+nano ~/.config/alacritty/alacritty.yml
+cat /tmp/Alacritty-437048.log
+alacritty migrate
+touch ~/.config/alacritty/alacritty.yml
+mkdir -p alacritty
+cd ~/.config
+cd .config/
+cd
+touch /.config/alacritty/alacritty.yml
+sudo apt install alacritty
+rm -rf ~/Clone/foot
+sudo rm /usr/share/bash-completion/completions/footclient
+sudo rm /usr/share/icons/hicolor/48x48/apps/foot.png
+sudo rm -r /usr/share/terminfo/f/foot
+sudo rm /usr/bin/footclient
+sudo rm /usr/bin/foot
+sudo ninja uninstall
+cd ~/Clone/foot/bld/release
+img2sixel Screenshot\ from\ 2024-09-08\ 17-57-53.png
+cd ~
+cd /mnt/
+nano ~/.config/lf/lfrc
+chmod +x ~/.config/lf/preview
+nano ~/.config/lf/preview
+mkdir -p ~/.config/lf
+sudo nano ~/.config/lf/preview
+gedit  ~/.config/lf/preview
+img2sixel --version
+set -x LD_LIBRARY_PATH /usr/local/lib $LD_LIBRARY_PATH
+sudo ldconfig
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+sudo make install
+make
+./configure
+autoreconf -fi
+./autogen.sh
+cd libsixel
+git clone https://github.com/saitoha/libsixel.git
+sudo apt install -y build-essential autoconf automake libtool pkg-config libgd-dev
+
+sudo apt install lf
+cd Clone
+img2sixel
+gnome-terminal && foot
+claer
+fish
+foot
+sed 's/@default_terminfo@/foot/g' ../../foot.info | sudo tic -o /usr/share/terminfo -x -e foot,foot-direct -
+sudo ninja install
+ninja test
+ninja
+meson --buildtype=release --prefix=/usr -Db_lto=true ../..
+rm -rf bld
+cd bld/release
+mkdir -p bld/release
+cd foot
+git clone https://codeberg.org/dnkl/foot.git
+cd `
+
+sudo apt install meson ninja-build pkg-config gcc libwayland-dev libxkbcommon-dev libpixman-1-dev libutf8proc-dev libfcft-dev libtllist-dev libunistring-dev libfreetype6-dev libfontconfig1-dev
+sudo apt install meson
+mkdir -p bld/release && cd bld/release
+apt search uwufetch
+uwufetch
+sudo apt update
+gedit ~/.themes/Dracula/gtk-3.0/gtk.css
+cp -r /usr/share/themes/Dracula/gtk-3.0/* ~/.themes/Dracula/gtk-3.0/
+mkdir -p ~/.themes/Dracula/gtk-3.0
+nautilus .
+git clone https://github.com/aynp/dracula-wallpapers.git
+git clone https://github.com/helpotters/dracula-wallpapers.git
+gnome-shell --replace &
+cp /usr/share/themes/Dracula/gtk-4.0/gtk-dark.css ~/.config/gtk-4.0/
+cp /usr/share/themes/Dracula/gtk-4.0/gtk.css ~/.config/gtk-4.0/
+cp -r /usr/share/themes/Dracula/assets ~/.config/
+mkdir -p ~/.config/gtk-4.0
+ls /usr/share/icons/
+ls /usr/share/themes
+ls ~/.config/gtk-4.0/
+ls ~/.icons/Dracula
+ls ~/.themes/Dracula
+gsettings set org.gnome.desktop.interface icon-theme "Dracula"
+gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
+gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
+sudo mv Dracula /usr/share/icons/
+cd Downloads/
+sudo mv Dracula /usr/share/themes/
+gedit
+sudo apt install gedit
+apt search gedit
+apt search dracula
+apt search android
+apt serach android
+code
+google-chrome
+mv dracula.xml $HOME/.local/share/gedit/styles/
+
+
+mkdir styles
+cd styles
+cd gedit
+mkdir gedit
+cd share
+cd .local
+cd clay/
+cd /home
+cd home
+mkdir /home/clay/.local/share/gedit/styles/
+mkdir $HOME/.local/share/gedit/styles/
+mkdir mv $HOME/.local/share/gedit/styles/
+wget https://raw.githubusercontent.com/dracula/gedit/master/dracula.xml
+./install.sh
+cd gnome-terminal/
+git clone https://github.com/dracula/gnome-terminal
+sudo apt-get install dconf-cli
+man starship
+cat autologin.py
+cd MSI
+cd /
+cat autologin.sh
+pn add bootstrap
+cursor ..
+cat /home/clay/autologin.log
+sudo nano autologin.sh
+cd dispatcher.d/
+sudo chmod +x /etc/NetworkManager/dispatcher.d/autologin.sh
+
+sudo chmod +x /home/clay/MSI/autologin.py
+
+which python3
+
+sudo touch /etc/NetworkManager/dispatcher.d/autologin.sh
+sudo rm autologin.py
+rm autologin.py
+sudo cp autologin.py /etc/NetworkManager/dispatcher.d/
+cp autologin.py /etc/NetworkManager/dispatcher.d/
+cd /home/clay/MSI/
+crontab -e
+dpkg -l
+cd react-plain-text/
+cd react-rich
+cd verbum/
+cd react-rich-collab/
+touch Blog.jsx Blog.module.css
+mkdir Blog.jsx Blog.module.css
+cd Blog
+touch Contact.jsx Contact.module.css
+cd Contact
+touch About.module.css
+touch About.jsx
+cd About
+mkdir About Contact Blog
+cd pages
+cd src
+pn install react-hook-form
+sudo ln -s ~/Downloads/squashfs-root/cursor /usr/local/bin/cursor
+cd "/home/clay/Project/Extension/chrome-iframe/" && g++ hello.cpp -o hello && "/home/clay/Project/Extension/chrome-iframe/"hello
+pnpm add vercel --save-dev
+git push origin main
+git comming -m "adding vercel config"
+git add .
+pn start
+pn nodemon server.js
+pn add nodemon -D
+node server.js
+pn add cors
+node server
+pn install axios
+pn add body-parser
+pn add cors express
+Altair Aahad
+pn add dotenv
+sudo rm /usr/local/bin/cursor
+node "/media/clay/Kignston SSD/Shameem Sir/advanced-text-editor-feedback/server.js"
+pn install nodemailer
+clera
+pn init -y
+cd Project/Backend/
+cursor
+chmod +x ~/Downloads/squashfs-root/cursor
+
+./xampp status
+cd..
+php "/opt/lampp/htdocs/php-crash/4_server.php"
+php "/opt/lampp/htdocs/php-crash/3_globals.php"
+cd php-crash/
+./xampp start
+php "/media/clay/Kignston SSD/XAMPP/htdocs/INT220/32_global.php"
+pn add verbum
+pn create vite@latest . --template react
+sudo nano /usr/share/applications/xampp-control-panel.desktop
+sudo ./manager-linux-x64.run
+gksu gedit /usr/share/applications/xampp-control-panel.desktop
+
+sudo apt-get install gksu
+sudo /opt/lampp/manager-linux-x64.run
+
+sudo /opt/lampp/share/xampp-control-panel/xampp-control-panel 
+
+sudo ./xampp start
+sudo ./xampp panel
+history grep | xamp
+history grep | lampp
+cd ./apache2/
+cd lampp/
+cd /opt/
+git commit -m "added user routes and controller"
+git commit -m "added users register routes"
+sudo snap install postman
+cd lexical-vanilla-editor/
+git clone https://github.com/lyove/lexical-vanilla-editor.git
+cd fromGithub/
+mkdir fromGithub
+pn install @lexical/react @lexical/rich-text
+npm install @lexical/react @lexical/rich-text
+pn install @lexical/react @lexical/rich-text @lexical/toolbar
+git commit -m "project config complete"
+pn add @lexical/utils
+cd react-table/
+pn install --force
+ls node_modules/@lexical/utils
+pn install lexical @lexical/react
+pn i multer
+pn i cloudinary
+git checkout
+git fetch origin
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+pn add bcrypt jsonwebtoken
+pn add mongoose-aggregate-paginate-v2
+git commit -m "added error handling"
+git status
+pn add cookie-parser cors
+git commit -m "connected mongodb"
+pn add dotenv mongoose express
+pn add prettier -D
+mkdir controllers db middlewares models routes utils
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Node# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Node# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+clear# End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+git push
+git commit -m "setup project files"
+touch app.js constants.js index.js
+git branch -M main
+git commit -m "initial commit"
+git init
+cd backend/
+cd frontend/
+pn add prop-types
+ssh devcloud
+ssh s_01j67q6bw0bj28d5b9jv4yrs2k@ssh.lightning.ai
+rm -rf node_modules/
+./
+pn add axios
+pn
+cd ba
+lsof -i :3000
+cursor server.js
+code server.js
+touch server.js
+pn add express
+cd zen-browser
+tar -xjf zen.linux-specific.tar.bz2
+lsl
+sudo chmod 4755 chrome-sandbox
+sudo chown root:root chrome-sandbox
+./start-tor-browser.desktop
+cd tor-browser/
+curl -s \
+  "https://lightning.ai/setup/ssh?t=9e17348b-cfd0-4e43-93bb-9ad68d76cfb3&s=01j67q6bw0bj28d5b9jv4yrs2k" | bash
+sudo apt install tilix
+bash
+/usr/bin/hollywood
+hollywood
+history grep | studio
+cd /bin
+cd /opt/android-studio
+cd google
+cd /opt/android-studio/
+Calculator/
+cd AndroidStudioProjects/
+LS
+colormgr
+color0a
+colora
+scp -r /home/clay/Project/Backend/express/ u233104@vps.intel.com:/home/u233104/vps-apps/
+scp -r /home/clay/Project/Backend/express/ u233104@login-2:/home/u233104/vps-apps/
+npx nodemon
+cd Do
+nano ~/.local/share/applications/tor-browser.desktop
+# Create the .desktop file
+nano ~/.local/share/applications/tor-browser.desktop
+cd tor-browser_en-US
+tar -xf tor-browser-linux-x86_64-13.5.3.tar.xz
+nodemon -v
+nodemon
+pn install express
+pn i -g nodemon
+pn setup
+cd Project/Next.js/login/
+cd login/
+cd logi
+pn create next-app
+cd "/media/clay/Kingston SSD/BTech Term - 5/DSA/" && g++ 5_minimum_jumps.cpp -o 5_minimum_jumps && "/media/clay/Kingston SSD/BTech Term - 5/DSA/"5_minimum_jumps
+touch NotFound.jsx NotFound.module.css
+cd NotFound/
+cd No
+touch CookiePolicy.jsx CookiePolicy.module.css
+cd CookiePolicy/
+mkdir CookiePolicy
+sudo apt install hollywood
+sudo /opt/lampp/xampp stop
+sudo /opt/lampp/xampp start
+sudo chown -R $USER:$USER /opt/lampp/htdocs/php-crash
+sudo chmod -R 777 /opt/lampp/htdocs/php-crash
+cd /opt/lampp/htdocs/php-crash/
+sudo mkdir php-crash
+mkdir php-crash
+cd /opt/lampp/htdocs/
+apache2 -v
+sudo ./xampp-linux-x64-8.2.12-0-installer.run
+./xampp-linux-x64-8.2.12-0-installer.run
+sudo chmod 755 xampp-linux-x64-8.2.12-0-installer.run
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean
+php "/media/clay/Kingston SSD/XAMPP/htdocs/INT220/31_function_overloading.php"
+php "/media/clay/Kingston SSD/XAMPP/htdocs/INT220/30_date.php"
+sudo dpkg -i '/home/clay/Downloads/discord-0.0.67.deb'
+dpkg -i '/home/clay/Downloads/discord-0.0.67.deb'
+php "/media/clay/Kingston SSD/XAMPP/htdocs/INT220/27_sort_associative.php"
+sudo apt install php
+sudo apt udpate
+lear
+nano ~/.local/share/applications/cursor-ai.desktop
+./cursor-0.40.3x86_64.AppImage --no-sandbox
+history grep | cursor
+speedtest-cli
+rm ~/Downloads/setup-devcloud-access-233104.txt
+bash ~/Downloads/setup-devcloud-access-233104.txt
+cd "/media/clay/Kingston SSD/BTech Term - 5/DSA/" && g++ 2_hello.cpp -o 2_hello && "/media/clay/Kingston SSD/BTech Term - 5/DSA/"2_hello
+pn -v
+nvm list
+nvm -v
+sudo apt install brave-browser
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+sudo apt install apt-transport-https curl
+gsettings set org.gnome.desktop.peripherals.touchpad middle-click-emulation true
+gsettings set org.gnome.desktop.interface gtk-enable-primary-paste false
+xinput list
+sudo update-desktop-database
+sudo chmod +x /usr/share/applications/android-studio.desktop
+sudo nano /usr/share/applications/android-studio.desktop
+code /usr/share/applications/android-studio.desktop
+sudo code /usr/share/applications/android-studio.desktop
+cd /opt/android-studio/bin
+pnpm
+npm i -g pnpm
+node -v
+npm -v
+npm i -g npm
+nvm cache clear
+nvm uninstall 20.17.0
+nvm alias default 22.8.0
+nvm use 22.8.0
+nvm install 22.8.0
+nvm ls-remote
+nvm install latest
+nvm use latest
+sudo apt upgrade
+git config --global user.email "shakibalam998@gmail.com"
+git config --global user.name "anonys6"
+nvm use v20.17.0
+nvm alias default v20.17.0
+nvm uninstall v4.9.1 && nvm uninstall v6.17.1 && nvm uninstall v8.17.0 && nvm uninstall v10.24.1 && nvm uninstall v12.22.12 && nvm uninstall v14.21.3 && nvm uninstall v16.20.2 && nvm uninstall v18.20.4
+nvm uninstall v6.17.1
+nvm uninstall lts/argon
+nvm install --lts
+nvm instal node
+nvm --version
+code  ~/.config/fish/functions/nvm.fish
+fisher install edc/bass
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+
+
+sudo apt-get install ntfs-3g
+sudo mkdir -p '/media/clay/Kingston SSD'
+df -h
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt autoclean
+cd apt upgrade
+adb connect 172.21.2.145:35485
+adb connect 172.21.1.32:39857
+adb connect 172.21.1.32:43775
+sudo apt install adb
+./studio.sh
+sudo reboot
+sudo ln -s /home/clay/MSI/isw/isw /usr/local/bin/isw
+ls -l /usr/local/bin/isw
+sudo ./isw -b on
+sudo ./isw -r
+sudo nano /etc/isw.conf
+sudo modprobe ec_sys write_support=1
+cd isw
+sudo update-grub
+code /etc/default/grub
+sudo nano /etc/default/grub
+sudo cp usr/lib/systemd/system/isw@.service /usr/lib/systemd/system/
+sudo cp etc/modules-load.d/isw-ec_sys.conf /etc/modules-load.d/
+sudo cp etc/modprobe.d/isw-ec_sys.conf /etc/modprobe.d/
+sudo cp etc/isw.conf /etc/
+sudo python3 setup.py install
+sudo apt install tree
+sudo apt-get install python3 python3-pip
+sudo apt-get update
+git clone https://github.com/YoyPa/isw.git
+sudo apt install git
+https://github.com/YoyPa/isw.git
+nvm
+fisher update edc/bass
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+rm -rf ~/.nvm
+
+
+Copy code
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm --version
+
+bass source ~/.nvm/nvm.sh --no-use
+nvm install --lts
+
+fisher install edc/bass
+
+bass source $NVM_DIR/nvm.sh --no-use
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+sudo apt install curl
+./Telegram
+cd Telegram
+tar -xf tsetup.5.4.0.tar.xz
+ls /usr/share/xsessions
+sudo apt-get autoremove --purge
+sudo apt-get remove --purge gnome-session-flashback
+sudo rm /usr/share/xsessions/gnome-classic-xorg.desktop
+sudo rm /usr/share/xsessions/gnome-classic.desktop
+sudo gpasswd -d $USER libvirt
+sudo gpasswd -d $USER kvm
+sudo apt-get remove --purge qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils cpu-checker
+
+sudo usermod -aG libvirt $USER
+sudo usermod -aG kvm $USER
+sudo kvm-ok
+egrep -c '(vmx|svm)' /proc/cpuinfo
+
+sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils cpu-checker
+sudo mv android-studio /opt/
+tar -xzf android-studio-2024.1.2.12-linux.tar.gz
+cd isw/
+cd is
+sudo apt update && sudo apt install --reinstall nautilus -y
+cd squashfs-root
+./cursor-0.40.3x86_64.AppImage --appimage-extract
+
+./cursor-0.40.3x86_64.AppImage
+chmod +x cursor-0.40.3x86_64.AppImage
+sudo apt clean
+sudo rm /usr/local/bin/isw
+sudo apt install python3 python3-pip
+sudo apt install build-essential python3
+sudo apt update && sudo apt install vlc -y
+sudo dpkg -i  /home/clay/Downloads/code_1.92.2-1723660989_amd64.deb
+sudo dpkg i /home/clay/Downloads/code_1.92.2-1723660989_amd64.deb
+sudo dpkg i '/home/clay/Downloads/code_1.92.2-1723660989_amd64.deb'
+sudo apt install gnome-tweaks
+ls /usr/share/xsessions/
+
+grep '^Exec=' /usr/share/xsessions/*.desktop
+
+echo $XDG_CURRENT_DESKTOP
+
+chsh -s /usr/bin/fish
+sudo apt install fish
+sudo apt install gnome-shell-extension-manager
+sudo apt install gnome-shell-extensions gnome-shell-extension-prefs
+sudo dpkg -i /home/clay/Downloads/google-chrome-stable_current_amd64.deb
+sudo dpkg i '/home/clay/Downloads/google-chrome-stable_current_amd64.deb'
+dpkg i '/home/clay/Downloads/google-chrome-stable_current_amd64.deb'
+dpkg
+sudo dpkg install '/home/clay/Downloads/google-chrome-stable_current_amd64.deb'
